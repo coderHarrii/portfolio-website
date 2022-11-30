@@ -1,4 +1,4 @@
-*{font-family:'Open Sans',sans-serif;margin:0;padding:0;}
+*{font-family:'Raileway',sans-serif;margin:0;padding:0;}
 a{text-decoration: none;}
 ul{list-style:none;}
 header{
@@ -166,10 +166,10 @@ html, body{width:100%;overflow-x: hidden;}
     margin-top: 5px;
     margin-bottom: 8px;
 }
-.SGI{background-color: #bc3908;}
-.SGI img{align-self: center;}
-.CDA{background-color: #f6aa1c;}
-.CDA img{
+.RCD{background-color: #bc3908;}
+.RCD img{align-self: center;}
+.NMC{background-color: #f6aa1c;}
+.NMC img{
     align-self: center;
     margin-top: 3px;
     margin-bottom: 3px;

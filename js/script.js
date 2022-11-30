@@ -12,7 +12,7 @@ $(function () {
 
         // Sobre-mim
         $(".hey").text("Hey!");
-        $(".hey-txt").text("Me chamo Harrison Caetano Cândido! u amo programar tanto quanto jogar basquete e aprender novas coisas! Sinta-se livre para entrar em contato ou dar uma olhada no meu trabalho abaixo.");
+        $(".hey-txt").text("Me chamo Harrison Caetano Cândido! Eu amo programar tanto quanto jogar basquete e aprender novas coisas! Sinta-se livre para entrar em contato ou dar uma olhada no meu trabalho abaixo.");
 
         // Portfolio
         // IMTRP
@@ -24,13 +24,13 @@ $(function () {
         $(".ADP h4").text("Análise de Dados da Covid 19");
         $(".ADP p").text("Este projeto visava visualizar a relação que a deseigualdade social teve com a pandemia de Covid 19 em um recorte de mais ou menor Maio de 2021, pior cenário no estado de São Paulo.");
 
-        // SGI
-        $(".SGI h4").text("Isolamento Socio-Geográfico");
-        $(".SGI p").text("O projeto foi feito por mim juntamente de algumas colegas do meu curso técnico, visando atender ao tema da SNCT de 2018, baseado na Ciência para Redução das Desigualdades.");
+        // RCD
+        $(".RCD h4").text("SiLocadora de Veículos");
+        $(".RCD p").text("É um projeto que visa criar um sistema de locadora de veículos, onde os usuários podem basicamente criar uma conta, alugar um veículo e controlar seus dados.");
 
-        // CDA
-        $(".CDA h4").text("Análise de Dados de Churn");
-        $(".CDA p").text("Visando entender como os dados de Churn de uma empresa hipotética estavam distribuídos entre os clientes, foi utilizado das técnicas de Análise de Dados para que a equipe de vendas pudesse traçar estratégias que trouxessem vantagem competitiva no mercado.");
+        // NMC
+        $(".NMC h4").text("Calculadora de Métodos Numéricos");
+        $(".NMC p").text("Este projeto visa calcular aproximações para zeros de funções polinomiais por três métodos diferentes, a saber, bisseção, newton e secante.");
 
         $(".sombra-tprojects").text("Saiba mais"); // botão
 
@@ -60,29 +60,6 @@ $(function () {
         $(".text-forms p").text("Se quiser conversar, por favor não exite em mandar uma mensagem, seria ótimo a gente :)");
         $(".contact h4").text("Redes sociais");
 
-        // IMTRP
-        $(".title-IMTRP").text("Protótipo de Robô de Transporte de Materiais Industriais - Currículo de Harrison");
-
-        $(".title1").text("Protótipo de Robô de Transporte de Materiais Industriais");
-        $(".ft-fonte").text("Fonte: Autoria própria");
-        $(".txt1").text("O projeto teve como objetivo desenvolver um carrinho autônomo anticolisão e antiqueda por meio do uso de sensores controlados via arduino. Os sensores foram posicionados de forma a evitar que o robô entre em contato com obstáculos na direção do movimento, como paredes, e também de caindo de uma certa altitude, para uso logístico em indústrias, fazendo uma prototipagem de modelos modernos de veículos que não precisam de motorista.");
-
-        $(".title2").text("Introdução");
-        $(".txt2").text("Com a estabilização da Indústria 4.0 nos parques brasileiros e industriais internacionais, principalmente no setor secundário da economia, a otimização tornou-se necessária a todos os pilares industriais, que inclui o setor serviços logísticos terciários. A globalização torna o mercado e a indústria estão sempre procurando atender o cliente o mais rápido possível, rápida e eficientemente possível, mas para isso é necessário que o que está por trás da implementação desses serviços está fornecendo segurança e eficiência no que diz respeito funcionários, ou seja, o uso de equipamentos definitivo e cada vez melhor.\n\nSendo assim, o objetivo deste trabalho foi projetar e construir um carro que se move suavemente independente, e que consegue evitar obstáculos e que impedi-lo de cair em um buraco, fazendo um simulação simples de veículos independentes para uso industriais e elétricos de baixo custo. Além disso, a paródia de um veículo ainda não foi projetado alcança mesmo com suas limitações físicas e tecnologias, simular um carro autônomo industrial, atingir seus objetivos básicos de detectar, parar e evitar objeções imprevistas.");
-
-        $(".title3").text("Desenvolvimento");
-        $(".txt3").text("Durante o desenvolvimento do projeto, experimentos de software e hardware foram feitos no protótipo para uma melhor compreensão dos componentes utilizados, como o sensor ultrasônico. Nesse sentido, todo o hardware do carrinho foi primeira fase concluída, com um pico de dificuldade apenas em dúvida sobre a tomada de decisão do cargo dos sensores no chassi, o que favoreceria melhor a detecção de obstáculos ao redor do veículo, tendo concentrado nossos esforços na interseção da programação da ponte H L298N, o servo motor de 180° e os sensores ultrassônicos HC-SR04, pela plataforma Arduino.\n\nO desafio mais pertinente foi sincronizar entre a distância calculada pelo sensor, de modo que o espécime poderia desviar de obstáculos e a velocidade com o qual ele pararia os motores A e B, e faria o rotação anti-horária do mesmo com o micro-servo motor, sem ter um impacto muito forte com o barreiras.\n\nOutro problema foi ter que lidar com o peso do componentes, que poderia afetar o movimento do prototipo para o desvio de objetos indesejados. Uma questão analisada foi a da questão de problema de pilha, pois haviam muitos componentes conectados em uma única bateria, que é de 9V, consumindo muita eletricidade e limitando o uso do projeto em relação ao seu tempo ativo, sendo uma alternativa para uso de um powerbank, o que aumentaria o tempo ativo do carrinho, mas reduziria sua velocidade e potência. Além disso, também era difícil lidar com a questão de tempo, velocidade e altura, que criava perigo de impacto.");
-
-        $(".title4").text("Resultados e Discussões");
-        $(".txt4").text("No final de setembro de 2019 conseguimos concluir o protótipo com quase 100% de eficiência graças ao sensor horizontal, mesmo com baixo desempenho no sensor vertical, devido à falta de sincronização dos sensores ultrassônicos. Ainda assim, o robô pode simular um transportador de material industrial autônomo programável, que poderia ser utilizado em indústrias para facilidades logísticas, auxiliando no transporte de metais pesados, pessoas e prevenir acidentes que custariam a vida dos funcionários na área de trabalho.");
-
-        $(".title5").text("Conclusão");
-        $(".txt5").text("Apesar das dificuldades encontradas, principalmente aquelas relacionadas ao funcionamento simultâneo dos componentes, em particular da Ponte H com os sensores ultrassônicos, o projeto atingiu os objetivos teóricos pré-estabelecidos, que eram driblar objetos à sua frente e trabalhar de acordo com a programação do operador.");
-
-        $(".title6").text("Código Fonte");
-
-        $(".title7").text("Referências");
-
         // ADP
         $(".title-ADP").text("Análise de Dados da Covid 19 - Currículo de Harrison");
 
@@ -103,36 +80,6 @@ $(function () {
 
         $(".title61").text("Desemprego");
         $(".txt61").text("A dashboard de Desemprego, por meio de 4 visuais estatísticos, 3 filtros e 1 mapa, nos traz insights de como os dados de Covid 19 se relacionam com dados gerais de desemprego, tais como Admissões, Desligamentos e setores da economia.");
-
-        // CDA
-        $(".title-CDA").text("Análise de Dados de Churn - Currículo de Harrison");
-
-        $(".title111").text("Análise de Dados de Churn");
-        $(".txt111").text("A taxa de rotatividade, em seu sentido mais amplo, é uma medida do número de indivíduos ou itens que deixam um grupo coletivo durante um período específico. É um dos dois principais fatores que determinar o nível estável de clientes que uma empresa atenderá.\n\nCom isso, a análise desses dados de churn acaba se tornando muito relevante na atualidade empresas e, portanto, tentei simular ao máximo uma situação semelhante de um empresa de telecomunicações.");
-
-        $(".txt211").text("Para o desenvolvimento do projeto, as bibliotecas usadas foram pandas, responsável por manipular os dados, e a plotlt, que cria histrogramas e outros gráficos.");
-
-        $(".txt311").text("Por fim, foi possível obter uma base de dados com um bom tratamento na ETL e também a geração de gráficos para uma melhor tomada de decisão pelo time de vendas.");
-
-        $(".title411").text("Histograma de Exemplo");
-        $(".txt411").text("OBS: Em breve disponibilizarei todos os gráficos!");
-
-        // SGI
-        $(".title-SGI").text("Isolamento Socio-Geográfico - Currículo de Harrison");
-
-        $(".title1111").text("Isolamento Socio-Geográfico");
-        $(".txt1111").text("O Isolamento Sócio-Geográfico consiste na separação física das populações por barreiras geográficas, que podem ser um rio, montanha ou planejamento urbano que pode dificultar o acesso básico aos direitos humanos. Essas barreiras criam uma quebra de informações e um lago de recursos básicos.");
-
-        $(".txt2111").text("Como foi dito, o Isolamento Sócio-Geográfico consiste na separação física das populações por barreiras geográficas, que podem ser um rio, montanha ou planejamento urbano que podem dificultar o acesso básico aos direitos humanos como educação, transporte e saúde. As fontes de dados foram coletadas de bancos de dados públicos, disponíveis na internet, para que possamos observar como os três direitos humanos básicos foram distribuídos em nível estadual e nacional.");
-
-        $(".title3111").text("Metodologia");
-        $(".txt3111").text("Foram pesquisadas obras na Internet que trouxeram informações sobre a desigualdade geográfica no acesso a educação, cultura, transporte, saúde e saneamento básico. Paralelamente, foi desenvolvido um questionário para analisar a acesso dos frequentadores deste campus a transporte, saúde e educação.");
-
-        $(".txt4111").text("No Brasil há uma grande área de isolamento em locais áreas rurais por estarem distantes da urbanização, e com a falta de transportar muitas famílias e pequenos empresários acabam sendo isolados da própria população, tendo dificuldades de deslocamento para o centro urbano e grande dificuldade em receber alimentação e assistência médica. Em vários casos, os moradores da região sofrem com a falta de recursos médicos e escolares, perdendo o direito de cidadão.\n\nNo campus do IFSP-SJC, os alunos têm encontrou dificuldade de transporte. por ser um lugar onde poucas pessoas frequentam e por estar em um Auto-estrada, o transporte público é restrito, onde tiver apenas uma linha de ônibus, o que acaba tendo dificuldade acesso para pessoas que vêm de todos os cantos do Cidade. A única linha de ônibus que você tem só passa pelo centro e poucos alunos conseguem obtê-lo. Esse tipo problema afeta a vida de muitos estudantes, tornando com isso muitos tem que pegar pelo menos dois ônibus para ir à escola e causando danos físicos e psicológico.");
-
-        $(".txt4211").text("No país há grandes desigualdades em relação à área de educação, como em bairros distantes dos centros, e das regiões urbanas e rurais. Um estudo do INEP encontrou que, na faixa etária de 10 a 14 anos, 95% dos jovens rural, e 97% dos jovens nas áreas urbanas estão nas Escolas. O estudo também aponta que 50% dos crianças urbanas que frequentam escolas estão atrasados ​​na escola. Nas zonas rurais, esta situação afecta 72% dos alunos, revelando assim um atraso discriminatório, exigindo a implementação de programas de ensino capazes de mostrar as ações do estado, levando em conta a constituição de 1988. Ou seja, o direito à educação não está distante apenas nas regiões desprivilegiados, bem como em toda o território nacional.\n\nHá também desigualdades regionais no saneamento básico, cuja importância está ligada a sistemas que cuidam abastecimento de água, tratamento de esgoto e controle da destinação do lixo produzido pela população para promover hábitos higiênicos e saudáveis, melhoria da limpeza pública e, assim, levar a qualidade de vida à população. Observa-se que a região sudeste do país tem melhor acesso ao saneamento básico do que o regiões norte e nordeste");
-
-        $(".txt5111").text("Com os dados obtidos na pesquisa, observa-se que a região Sudeste apresenta melhores condições de acesso a saneamento básico, educação e transporte. Ainda há diferenças consideráveis ​​entre as regiões urbanas e rurais, e bairros centrais e periféricos em áreas urbanas.");
 
         // Obrigado
         $(".title-Thanks").text("Obrigado");
@@ -165,16 +112,16 @@ $(function () {
         $(".IMTRP p").text("The Project developed by me and a team of two friends aimed to design and build a prototype of industrial materials transport robot, meeting the theme of SNCT 2019.");
 
         // ADP
-        $(".ADP h4").text("Covid 19 Data Analysis");
+        $(".ADP h4").text("Covid 19 Data Analysis Dashboard");
         $(".ADP p").text("This Project aimed to visualize the relationship that social inequality had with the covid 19 pandemic in a clipping from around May 2021, the worst overall picture in the state of São Paulo.");
 
-        // SGI
-        $(".SGI h4").text("Socio-Geographic Isolation");
-        $(".SGI p").text("It was made by me together with some colleagues from my Technical course, aiming to meet the theme of 2018 SNCT, based on Science for Reducing Inequalities.");
+        // RCD
+        $(".RCD h4").text("Rental Car Dealership System");
+        $(".RCD p").text("It is a project that aim to create a rental car dealership system, wich users can basicaly create an account, rent a vehicle and control their data.");
 
-        // CDA
-        $(".CDA h4").text("Churn Data Analysis");
-        $(".CDA p").text("It aims to understand how the Churn data of a hypothetical company is distributed among customers so that, in this way, new strategies can be developed by the Sales team.");
+        // NMC
+        $(".NMC h4").text("Numeric Methods Calculator System");
+        $(".NMC p").text("This project aims to calculate approximations for zeros of polynomial functions by three different methods, namely bisection, newton and secant.");
 
         $(".sombra-tprojects").text("Know more"); // botão
 
@@ -204,29 +151,6 @@ $(function () {
         $("text-forms p").text("If you want to chat, please don't hesitate to message, it would be great to have a conversation :)");
         $(".contact h4").text("Social Media");
 
-        // IMTRP
-        $(".title-IMTRP").text("Industrial Material Transport Robot Prototype - Harrison's Resume");
-
-        $(".title1").text("Industrial Material Transport Robot Prototype");
-        $(".ft-fonte").text("Source: Own autorship");
-        $(".txt1").text("The project aimed to develop an autonomous anti-collision and fall arrest cart with distance sensors controlled via arduino. The sensors were positioned in such a way that they prevent the robot from contacting obstacles in the direction of movement, such as walls, and also from falling from a certain altitude, for logistical use in industries, making a prototyping of modern vehicle models that do not need driver.");
-
-        $(".title2").text("Introduction");
-        $(".txt2").text("With the stabilization of 4.0 Industry in the brazilian park and international industrialists mainly in the secondary sector of the economy, optimization became necessary to all industrial pillars, which includes the sector tertiary logistics services. Globalization makes the market and the industry are always looking to serve the customer as quickly as possible, quickly and efficiently as possible, but for that it is necessary that what is behind the implementation of these services is providing security and efficiency with respect to employees, that is, the use of equipment definitive and increasingly improved.\n\nThus, the purpose of this work was to design and build a car that moves smoothly independent, and who manages to avoid obstacles and who stop him from falling into a hole, making a simple simulation of independent vehicles for use low-cost industrial and electrical. Furthermore, the parody of a vehicle has not yet designed achieves even with its physical limitations and technologies, simulate an industrial autonomous car, hitting your basic goals of detect, stop, and dodge unforeseen objections.");
-
-        $(".title3").text("Development");
-        $(".txt3").text("During the development of the project, software and hardware experiments were done in the prototype for a better understanding of the components used, such as the ultrasonic sensor. In that regard, all the cart hardware was first stage completed, with a spike in difficulty only in doubt about the decision making of the position of the sensors in the chassis, which would better favor the detection of obstacles around the vehicle, having concentrated our efforts at the intersection of H bridge programming L298N, the 180° servo motor, and the ultrasonic sensors HC-SR04, by the Arduino platform.\n\nThe most pertinent challenge was to synchronize between the distance calculated by the sensor, so that the specimen could dodge obstacles and the speed with which he would stop engines A and B, and make the counterclockwise rotation of the same with the micro-servo motor, without having a very strong impact with the barriers.\n\nAnother problem was having to deal with the weight of the components, which made force for the deviation of the prototype for unwanted shortcuts. One issue analyzed was the stack issue, as there are many components connected in a single battery, which is 9V, consuming a lot of electricity and limiting the use of the project in relation to their active time, being an alternative to use of a powerbank, which would increase the active time of the cart, but would reduce its speed and power. Furthermore, it was also difficult to deal with the question of time, speed, and height, which created danger of impact.");
-
-        $("title4").text("Results and Discussions");
-        $(".txt4").text("At the end of september 2019 we were able to complete the prototype with almost 100% efficiency thanks to the horizontal sensor, althrough with low performance in the vertical sensor, due to a lack of ultrassonic sensors sync. Even so, the robot can simulate a programmable autonomous industrial material transporter, wich could be used in industries for logistical facilities, helping to transport heavy metals, people and preventing accidents that would cost employees lives in the work area.");
-
-        $(".title5").text("Conclusion");
-        $(".txt5").text("Although the founded dificulties, mainly those related to the simultaneous operation of the components, in particular of the H Bridge with the ultrassonic sensors, the project achieved the pre-established theorical goals, that were to dribble objects in front of it and work according to the operator's schedule.");
-
-        $(".title6").text("Source Code");
-
-        $(".title7").text("References");
-
         // ADP
         $(".title-ADP").text("Covid 19 Data Analysis - Harrison's Resume");
 
@@ -247,35 +171,6 @@ $(function () {
 
         $(".title61").text("Unemployment");
         $(".txt61").text("The unemployment dashboard, through 4 statistical visuals, 3 filters and 1 map, brings us insights into how covid 19 data relates to general unemployment data, such as Admissions, Terminations and sectors of the economy.");
-
-        // CDA
-        $(".title-CDA").text("Churn Data Analysis - Harrison's Resume");
-
-        $(".title111").text("Churn Data Analysis");
-        $(".txt111").text("The turnover rate, in its broadest sense, is a measure of the number of individuals or items that leave a collective group during a specific period. It is one of the two main factors that determine the steady level of customers a company will support.\n\nThrough this, the analysis of these churn data ends up becoming very relevant in today's companies, and therefore, I tried to simulate as much as possible a similar situation of a telecommunications company.");
-
-        $(".txt211").text("For the development of the project, pandas libraries were used to manipulate the data, and plotly to create the histogram.");
-
-        $(".txt311").text("Finally, it is possible to obtain a spreadsheet with a good ETL treatment, and it is also possible to use histograms for better decision-making by the team.");
-
-        $(".title411").text("Histogram Example");
-        $(".txt411").text("Note: I will provide all the graphs soon!");
-
-        // SGI
-        $(".title-SGI").text("Socio-Geographic Isolation - Harrison's Resume");
-
-        $(".title1111").text("Socio-Geographic Isolation");
-        $(".txt1111").text("Socio-Geographic Isolation consists in the physical separation of populations by geographic barriers, that could be a river, mountain or urban planning that can dificult basic access to the human rights. This barriers create an information break and a lake of basic resources.");
-
-        $(".txt2111").text("As it was said, Socio-Geographic Isolation consists in the physical separation of populations by geographic barriers, that could be a river, mountain or urban planning that can dificult basic access to human rights as education, transport and health. The Data Sources were gathered from public databases, avaiable on the internet, so that we can observe how the three basic human rights were distribuited at state and national level.");
-
-        $(".title3111").text("Methodology");
-        $(".txt3111").text("Works were searched on the Internet that brought information on geographic inequality in access to education, culture, transport, health and basic sanitation. At the same time, a questionnaire was developed to analyze the access of the regulars of this campus to transportation, health and education.");
-
-        $(".txt4111").text("In Brazil there is a large area of ​​isolation in places rural areas because they are far from urbanization, and with the lack of transport many families and small entrepreneurs end up being isolated from the population itself, having difficulties in moving to the urban center and great difficulty in receiving food and medical assistance. In several cases, the residents of the region suffer from the lack of medical and school resources, losing the right of citizen.\n\nIn the IFSP-SJC campus, students have\nencountered difficulty with transport. for being a place where few people attend and for being in a Highway, public transport is restricted, where you have only one bus line, which ends up having a difficult access for people who come from all corners of the City. The only bus line that you have only goes through the center and few students manage to get it. This type problem affects the lives of many students, making with that many have to take at least two buses to go to school and causing physical and psychological.\n\n");
-        $(".txt4211").text("In the country there are great inequalities regarding the area of education, as in neighborhoods far from the centers, and of urban and rural regions. An INEP study found that, in the age group of 10 to 14 years, 95% of young people in rural area, and 97% of young people in urban areas are located at Schools. The study also points out that 50% of urban children who attend schools are lagging behind in school. In rural areas, this situation affects 72% of students, thus revealing to have a discriminating delay, requiring the implementation of teaching programs capable of showing the actions of the state, taking into account the 1988 constitution. Or that is, the right to education is not only distant in the regions underprivileged as well as across the entirety of the National territory.\n\nThere are also regional inequalities in sanitation basic, whose importance is linked to systems that take care of water supply, sewage treatment and control of the destination of the garbage produced by the population, in order to promote hygienic and healthy habits, improvement of public cleaning and thus taking quality of life to the population. It is observed that the southeastern region of the country has better access to basic sanitation than the north and northeast regions");
-
-        $(".txt5111").text("With the data obtained in the research, it is observed that the region Southeast presents better conditions of access to basic sanitation, education and transport. There is still considerable differences between urban and rural regions, and central and peripheral neighborhoods in urban areas.");
 
         // Thank You
         $(".title-Thanks").text("Thank You");
